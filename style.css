@@ -1,0 +1,103 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef4ff;
+    color: #26344a;
+    text-align: center;
+}
+
+header {
+    background: #263b73;
+    color: white;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+main {
+    background: white;
+    max-width: 650px;
+    margin: 35px auto;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px #00000015;
+}
+
+h2 {
+    color: #263b73;
+}
+
+#scor {
+    font-size: 20px;
+    font-weight: bold;
+    color: #263b73;
+    margin: 25px;
+}
+
+button {
+    background: #3568c8;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #244b96;
+}
+
+#raspunsuri button {
+    display: block;
+    width: 90%;
+    max-width: 450px;
+    margin: 12px auto;
+    background: white;
+    color: #26344a;
+    border: 2px solid #3568c8;
+}
+
+#raspunsuri button:hover:not(:disabled) {
+    background: #e5edff;
+}
+
+button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+#mesaj {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+    color: #52617a;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 20px 12px;
+        padding: 20px 12px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+}
