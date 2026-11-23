@@ -1,2 +1,2 @@
-# detectiv-digital
-Aplicație educațională pentru identificarea informațiilor false
+# EcoQuest
+Aplicație educațională interactivă pentru învățarea reciclării și protejarea mediului prin quiz-uri, provocări și jocuri.
