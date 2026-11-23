@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
 }
@@ -6,13 +5,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #eef4ff;
-    color: #26344a;
+    background: #E8F5E9;
+    color: #263238;
     text-align: center;
 }
 
 header {
-    background: #263b73;
+    background: #2E7D32;
     color: white;
     padding: 30px 15px;
 }
@@ -36,18 +35,18 @@ main {
 }
 
 h2 {
-    color: #263b73;
+    color: #2E7D32;
 }
 
 #scor {
     font-size: 20px;
     font-weight: bold;
-    color: #263b73;
+    color: #2E7D32;
     margin: 25px;
 }
 
 button {
-    background: #3568c8;
+    background: #2E7D32;
     color: white;
     border: none;
     padding: 13px 25px;
@@ -58,7 +57,7 @@ button {
 }
 
 button:hover {
-    background: #244b96;
+    background: #1B5E20;
 }
 
 #raspunsuri button {
@@ -67,12 +66,12 @@ button:hover {
     max-width: 450px;
     margin: 12px auto;
     background: white;
-    color: #26344a;
-    border: 2px solid #3568c8;
+    color: #263238;
+    border: 2px solid #2E7D32;
 }
 
 #raspunsuri button:hover:not(:disabled) {
-    background: #e5edff;
+    background: #E8F5E9;
 }
 
 button:disabled {
@@ -88,7 +87,7 @@ button:disabled {
 
 footer {
     padding: 20px;
-    color: #52617a;
+    color: #52617A;
 }
 
 @media (max-width: 600px) {
